@@ -1,0 +1,24 @@
+@import 'common';
+
+.accountEditComponent {
+  padding-bottom: 100px;  display: block;
+
+  .geosuggest {
+    display: block;
+    width: 100%;
+  }
+
+  .btn {
+    box-shadow: $boxShadow;
+    &.addPickUpPointBtn {
+      float: right;
+      margin: 20px 0 0;
+    }
+  }
+  span {
+    .input-group-addon {
+      cursor: pointer;
+    }
+  }
+
+}

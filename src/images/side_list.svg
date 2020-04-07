@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_list</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="3" y="0" width="9" height="4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dook_Map" transform="translate(-267.000000, -240.000000)">
+            <g id="Group-9" transform="translate(0.000000, 80.000000)">
+                <g id="Group-4" transform="translate(15.000000, 160.000000)">
+                    <g id="ic_list" transform="translate(252.000000, 0.000000)">
+                        <g transform="translate(5.000000, 2.000000)">
+                            <rect id="Rectangle" stroke="#697986" stroke-width="1.20000005" x="0" y="2" width="15" height="19"></rect>
+                            <g id="Rectangle-2">
+                                <use fill="#A2ACB3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#697986" stroke-width="1" x="3.5" y="0.5" width="8" height="3"></rect>
+                            </g>
+                            <path d="M3.5,6.5 L11.5,6.5" id="Line" stroke="#697986" stroke-linecap="square"></path>
+                            <path d="M3.5,10.1666667 L11.5,10.1666667" id="Line-Copy" stroke="#697986" stroke-linecap="square"></path>
+                            <path d="M3.5,13.8333333 L11.5,13.8333333" id="Line-Copy-2" stroke="#697986" stroke-linecap="square"></path>
+                            <path d="M3.5,17.5 L11.5,17.5" id="Line-Copy-3" stroke="#697986" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+@import 'common';
+
+.mapContainer {
+  .mapPopupCarousel {
+    .carousel-indicators {
+      bottom: 0;
+      top: initial;
+      margin-bottom: 0;
+      li {
+        border-color: #7d7d7d;
+        &.active {
+          background-color: #7d7d7d;
+        }
+      }
+    }
+    .carousel-inner {
+      .item {
+        padding: 0 4em 2em;
+      }
+    }
+    .carousel-control {
+      width: 10%;
+      background-image: none;
+      .glyphicon-chevron-left {
+        left: initial;
+        right: 0;
+      }
+      .glyphicon-chevron-right {
+        right: initial;
+        left: 0;
+      }
+    }
+    a {
+      display: block;
+      color: black;
+    }
+  }
+}

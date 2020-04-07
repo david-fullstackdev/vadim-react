@@ -1,0 +1,215 @@
+$boxShadow: 0 0 19px 0px #e0e0e0;
+@import './var.scss';
+
+.bold_text {
+  font-weight: bold;
+}
+
+.loader_bar {
+  background-color: $dook-green; height: 6px; position: absolute;z-index: 1000000;
+
+}
+
+.col-sm-2.control-label{
+  width: 6em;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.zero_padding {
+  padding: 0;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visibility_hidden {
+  visibility: hidden;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.float_left {
+  float: left!important;
+}
+
+.full_width{
+  width: 100%;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+.blur_img {
+  filter: blur(5px);
+}
+
+.center_div {
+  margin: 0 auto;
+}
+
+.center_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+.center_content {
+  text-align: center;
+}
+
+.right_content {
+  text-align: right;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.rc-time-picker-panel.rc-time-picker-panel-narrow.rc-time-picker-panel-placement-bottomLeft  {
+  max-width: 5em!important;
+}
+
+.rc-time-picker-panel-input-wrap {
+  display: none;
+}
+
+.display_none {
+  display: none!important;
+}
+
+.right_content {
+  text-align: right;
+}
+
+
+.margin_bottom_halfem {
+  margin-bottom: 0.5em;
+}
+
+.margin_bottom_em {
+  margin-bottom: 1.5em;
+}
+
+.margin_top_em {
+  margin-top: 1em;
+}
+
+.margin_right_em {
+  margin-right: 1em;
+}
+
+.check_doublescale {
+  transform: scale(2);
+}
+
+.margin_left_right {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+
+.bootstrap-datetimepicker-widget {
+  direction: ltr!important;
+  color: black;
+
+  td.disabled {
+    color: #b8b8b8;
+  }
+}
+
+input[name='expectedPickUpDate'] {
+  pointer-events: none;
+}
+
+button:focus {
+  outline:0;
+}
+
+.spinner {
+  display: none;
+}
+
+.av-loading-bullet {
+  display: inline-block;
+  opacity: 0;
+  font-size: 7em;
+  color: $dook-green;
+}
+
+.spinnerActive {
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: #c4c9c9;
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+
+  .react-spinner {
+    position: relative;
+    width: 6em;
+    height: 6em;
+    top: 50%;
+  }
+
+  .react-spinner_bar {
+    -webkit-animation: react-spinner_spin 1.2s linear infinite;
+    -moz-animation: react-spinner_spin 1.2s linear infinite;
+    animation: react-spinner_spin 1.2s linear infinite;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+    width: 20%;
+    height: 7.8%;
+    left: 45%;
+  }
+
+  @keyframes react-spinner_spin {
+   0% { opacity: 1; }
+   100% { opacity: 0.15; }
+  }
+
+  @-moz-keyframes react-spinner_spin {
+   0% { opacity: 1; }
+   100% { opacity: 0.15; }
+  }
+
+  @-webkit-keyframes react-spinner_spin {
+   0% { opacity: 1; }
+   100% { opacity: 0.15; }
+  }
+}
+
+.float_right {
+  float: right;
+}
+
+#sk-container:lang(en) {
+  right: auto!important;
+  left: 20px!important;
+}
+
+#sk-messenger-button:lang(en) {
+  right: auto!important;
+  left: 20px!important;
+}

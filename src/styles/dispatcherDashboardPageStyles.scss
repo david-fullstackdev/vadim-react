@@ -1,0 +1,38 @@
+@import 'common';
+
+input.form-control.dateFilterInput {
+  box-shadow: $boxShadow;
+  width: 30%;
+  float: right;
+}
+
+.createOrderBtn {
+  box-shadow: $boxShadow;
+}
+
+.DispOrderListComponent {
+  .modal-dialog {
+    width: 100%;
+    display:table;
+    top: 0!important;
+    margin: 0;
+  }
+
+  .modal-content {
+    top: 0;
+
+    .content {
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+  }
+
+  div[role="dialog"] {
+    padding-left: 0!important;
+    top: 0;
+  }
+
+}
+.highlighted1{
+    background: red;
+}

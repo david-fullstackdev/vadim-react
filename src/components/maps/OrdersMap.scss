@@ -1,0 +1,43 @@
+@import '../../styles/_common';
+.map_style_controls {
+  position: absolute;
+  top: 5em;
+  left: 4em;
+  z-index: 1;
+}
+.mapContainer {
+  .mapPopupCarousel {
+    .carousel-indicators {
+      bottom: 0;
+      top: initial;
+      margin-bottom: 0;
+      li {
+        border-color: #7d7d7d;
+        &.active {
+          background-color: #7d7d7d;
+        }
+      }
+    }
+    .carousel-inner {
+      .item {
+        padding: 0 5em 2em;
+      }
+    }
+    .carousel-control {
+      width: 10%;
+      background-image: none;
+      .glyphicon-chevron-left {
+        left: initial;
+        right: 0;
+      }
+      .glyphicon-chevron-right {
+        right: initial;
+        left: 0;
+      }
+    }
+    a {
+      display: block;
+      color: black;
+    }
+  }
+}

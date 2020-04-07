@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_bag_big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.25132453,6.40121377 C1.27031747,6.17962952 1.45898438,6 1.68260129,6 L16.3173987,6 C16.5365933,6 16.7296206,6.17890669 16.7486755,6.40121377 L17.9656102,20.5987862 C17.9846032,20.8203705 17.8218477,21 17.590225,21 L0.409775019,21 C0.183462525,21 0.0153348595,20.8210933 0.0343897513,20.5987862 L1.25132453,6.40121377 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dook_mapdrop" transform="translate(-191.000000, -302.000000)">
+            <g id="Group-9" transform="translate(0.000000, 80.000000)">
+                <g id="Group-4" transform="translate(15.000000, 160.000000)">
+                    <g id="ic_bag_big" transform="translate(176.000000, 62.000000)">
+                        <g transform="translate(3.000000, 2.000000)">
+                            <g id="Rectangle-3">
+                                <use fill="#768490" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#768490" stroke-width="1" d="M1.74469052,6.5 L16.2553095,6.5 L17.4553095,20.5 L0.544690516,20.5 L1.74469052,6.5 Z"></path>
+                            </g>
+                            <path d="M9,0.794064535 C13.236642,0.794064535 13.5,6.02891783 13.5,3.88389941 C13.5,1.738881 11.4852814,0 9,0 C6.51471863,0 4.5,1.738881 4.5,3.88389941 C4.5,6.02891783 4.76335798,0.794064535 9,0.794064535 Z" id="Oval" fill="#768490"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

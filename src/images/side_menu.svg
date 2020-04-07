@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dook_mapdrop" transform="translate(-15.000000, -240.000000)" fill-rule="nonzero" fill="#5C6771">
+            <g id="Group-9" transform="translate(0.000000, 80.000000)">
+                <g id="Group-4" transform="translate(15.000000, 160.000000)">
+                    <g id="ic_menu">
+                        <g transform="translate(0.000000, 5.000000)" id="Shape">
+                            <path d="M25.2903226,0 L2.70967742,0 C1.21935484,0 0,0.675 0,1.5 C0,2.325 1.21935484,3 2.70967742,3 L25.2903226,3 C26.7806452,3 28,2.325 28,1.5 C28,0.675 26.7806452,0 25.2903226,0 Z"></path>
+                            <path d="M25.2903226,6 L2.70967742,6 C1.21935484,6 0,6.675 0,7.5 C0,8.325 1.21935484,9 2.70967742,9 L25.2903226,9 C26.7806452,9 28,8.325 28,7.5 C28,6.675 26.7806452,6 25.2903226,6 Z"></path>
+                            <path d="M25.2903226,12 L2.70967742,12 C1.21935484,12 0,12.675 0,13.5 C0,14.325 1.21935484,15 2.70967742,15 L25.2903226,15 C26.7806452,15 28,14.325 28,13.5 C28,12.675 26.7806452,12 25.2903226,12 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

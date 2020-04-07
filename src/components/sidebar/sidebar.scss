@@ -1,0 +1,40 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    transition: 0.5s;
+    background-color: #fff;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5);
+    
+    .sidebar-button {
+        position: absolute;
+        display: block;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #4E87BF;
+        color: #fff;
+        text-decoration: none !important;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    }
+    
+}
+.sidebar-left {
+    top: 50px;    
+    .sidebar-button {
+        right: -50px !important;
+        content: ">";
+    }
+}
+
+.sidebar-right {
+    top: 90px;
+    height: 75%;
+    .sidebar-button {
+        left: -50px;
+        top: -40px;
+    }
+}

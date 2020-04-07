@@ -1,0 +1,21 @@
+.sidebar-orders-expander{
+    .expand-button{
+        width: 304px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        color: #4E87BF;
+        text-decoration: none !important;
+        cursor: pointer;
+        background-color: #fff;
+        border-color: #bbbbbb;
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 15px;
+        padding-right: 15px;
+        .media-body {
+            text-align: left;
+        }
+    }
+}

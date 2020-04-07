@@ -1,0 +1,14 @@
+.groupageDetailsPage {
+  font-weight: 400;
+  .buttonsContainer {
+    text-align: right;
+    .btn {
+      min-width: 10em;
+      margin-bottom: 0.5em;
+    }
+  }
+  span.description {
+    display: block;
+    color: #93989c;
+  }
+}

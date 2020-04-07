@@ -1,0 +1,178 @@
+@import '../../styles/common';
+
+.dispatcherDashboardPageOrdersTable {
+  width: 100%;
+  margin: 20px 0 30px 0;
+  box-shadow: $boxShadow;
+  border-radius: 5px;
+
+  .order_type_select {
+    max-width: 8em;
+  }
+
+  .order_filter {
+    width: 8em;
+    max-width: 8em;
+
+    select {
+      max-width: 3em;
+      display: inline-block;
+    }
+
+    input {
+      max-width: 5em;
+      display: inline-block;
+    }
+
+  }
+
+  .remove_filter_btn {
+    border: 0;
+    background-color: transparent;
+    font-size: 0.8em;
+    margin-right: 0.5em;
+    &:hover {
+      color: $dook-green;
+    }
+  }
+
+  select, input {
+    font-weight: 300;
+  }
+
+  table {
+    .date {
+      .filter_input {
+        display: none;
+      }
+
+      .input-group-addon {
+        width: 3em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .xxx {
+    max-width: 3em;
+  }
+
+  .rc-time-picker-input {
+    text-align: center!important;
+    height: 34px;
+  }
+
+  thead {
+    white-space: nowrap;
+
+    .input-group.date {
+      max-width: 10em;
+    }
+
+    .bootstrap-datetimepicker-widget {
+      top: -15em!important;
+    }
+
+    th {
+      text-align: -webkit-center!important;
+      position: relative;
+    }
+
+    .reactable-column-header {
+      background-color: transparent;
+    }
+
+    tr {
+      label {
+        display: block;
+        margin: 0.3em;
+      }
+      input[name='id'] {
+        width: 8em;
+      }
+      input[name='items'] {
+        width: 6em;
+      }
+      input[name='cashOnDeliveryAmount'] {
+        width: 4em;
+      }
+      input[name='deliveryCommission'] {
+        width: 4em;
+      }
+      input[name='driver'] {
+        width: 10em;
+      }
+      input[name='dispatcherId'] {
+        width: 10em;
+      }
+      th.reactable-header-sort-asc, th.reactable-header-sort-desc {
+        position: relative;
+      }
+      th.reactable-header-sort-asc:after {
+        content: ' ↑';
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      th.reactable-header-sort-desc:after {
+        content: ' ↓';
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      &.reactable-filterer {
+        td {
+          border-radius: 7px;
+          .reactable-filter-input {
+            width: 30%;
+            float: right;
+          }
+        }
+      }
+      background-color: #f9fbfd;
+      &:last-child {
+        th {
+          padding: 10px 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  tbody {
+    background-color: #fff;
+    tr {
+      border-bottom: 1px solid #e2e2e2;
+      cursor: pointer;
+      td {
+        padding: 3px 12px;
+        text-align: center;
+        img {
+          max-width: 3em;
+        }
+      }
+    }
+    &.reactable-pagination {
+      td {
+        padding: 1.5em;
+        a {
+          color: black;
+          padding: 0.7em 1em;
+          &.reactable-current-page {
+            border: 1px solid #909090;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .red_border {
+
+    }
+  }
+}
+
+.dispatcherDashboardPageOrdersTableContainer {
+
+}

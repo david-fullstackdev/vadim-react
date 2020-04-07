@@ -1,0 +1,43 @@
+machine:
+  node:
+    version: 5.6.0
+
+general:
+  artifacts:
+    - "dist"
+  branches:
+    only: # list of branches to build
+      - production
+      - master
+
+dependencies:
+  override:
+    - npm install
+  pre:
+    - git config --global user.email "DeliverySystem@circleci.com"
+    - git config --global user.name "DeliverySystem CircleCI"
+
+deployment:
+  stage:
+    branch: master
+    commands:
+      - echo '* Deploy into "development" frontend *'
+      - npm run buildDev
+      - tar czvf build.dev.tar.gz dist/*
+      - cp build.dev.tar.gz $CIRCLE_ARTIFACTS/
+      - aws s3 cp dist/ s3://dev-dook-sa/ --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+
+  production:
+    branch: production
+    commands:
+      - echo '* Deploy into "test" frontend *'
+      - npm run buildTest
+      - tar czvf build.test.tar.gz dist/*
+      - cp build.test.tar.gz $CIRCLE_ARTIFACTS/
+      - aws s3 cp dist/ s3://test-dook-sa/ --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+
+      - echo '* Deploy into "production" frontend *'
+      - npm run buildProd
+      - tar czvf build.prod.tar.gz dist/*
+      - cp build.prod.tar.gz $CIRCLE_ARTIFACTS/
+      - aws s3 cp dist/ s3://portal-dook-sa/ --recursive --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers

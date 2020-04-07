@@ -1,0 +1,51 @@
+@import '../../styles/common';
+
+thead {
+  tr {
+    label {
+      display: block;
+    }
+    input[name='orders'] {
+      width: 6em;
+    }
+    input[name='# of Orders'] {
+      width: 6em;
+    }
+    input[name='Delivery Cost'] {
+      width: 7em;
+    }
+    input[name='مجموعة #'] {
+      width: 6em;
+    }
+    input[name='عدد الطلبات'] {
+      width: 6em;
+    }
+    input[name='تكلفة التوصيل'] {
+      width: 7em;
+    }
+  }
+}
+
+table {
+    .date {
+    .filter_input {
+    }
+
+    .input-group-addon {
+
+    }
+  }
+}
+
+.reactable-filterer {
+  input:empty:before {
+    content: 'attr(placeholder)';
+    display: block;
+    color: #979797;
+  }
+
+  .reset_btn_container {
+    padding-top: 3% !important;
+  }
+
+}

@@ -1,0 +1,34 @@
+@import '../../styles/styles.scss';
+
+.user-language-select {
+  position: absolute;
+  top: 1em;
+  right: 20px;
+  z-index: 1000;
+  background-color: inherit;
+
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: black;
+  }
+
+  .sound_button {
+    font-size: 1em;
+    cursor: pointer;
+
+    &:lang(en) {
+      margin-right: 1em;
+    }
+    &:lang(ar) {
+      margin-left: 1em;
+    }
+  }
+}

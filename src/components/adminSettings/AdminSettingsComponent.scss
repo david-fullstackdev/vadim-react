@@ -1,0 +1,148 @@
+.AdminSettingsContainer {
+  margin-bottom: 10em;
+
+  .padding_ten:lang(ar) {
+    right: 10%!important;
+  }
+
+  .padding_ten:lang(en) {
+    left: 10%!important;
+  }
+
+  &:lang(ar) {
+    direction: rtl;
+
+    .set_btn {
+      width: 100%;
+    }
+    .geosuggest {
+      width: 100%;
+    }
+    .input-group {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+  .dook_font {
+    color: #60285E;
+  }
+
+  .country_input {
+    width: 65%;
+    display: inline;
+    margin-right: 1.5em;
+
+    &:lang(ar) {
+      margin-right: 0;
+      margin-left: 1.5em;
+    }
+  }
+  .list_group_container {
+    display: inline;
+  }
+  .list-group {
+    overflow-y: scroll;
+    max-height: 150px;
+    width: 65%;
+    max-width: 65%;
+    display: inline-block;
+    margin-right: 1.5em;
+    cursor: pointer;
+
+    &:lang(ar) {
+      margin-right: 0;
+      margin-left: 1.5em;
+    }
+  }
+
+  .addBtn {
+    width: 5em;
+  }
+
+  .button_group_container {
+    display: inline-block;
+    position: absolute;
+
+    .btn-danger:lang(ar) {
+      margin-right: 0.5em;
+    }
+
+    .btn-danger:lang(en) {
+      margin-right: 0.5em;
+    }
+  }
+
+  .out_of_city_labels {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: both;
+  }
+
+  .company_create_form {
+    margin-bottom: 3em;
+  }
+
+  .add_cancel_container {
+    margin-top: 1em;
+  }
+
+  .table_container {
+      overflow-y: scroll;
+      max-height: 250px;
+      width: 40%;
+      clear: both;
+      margin-right: 15px;
+      margin-left: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      display: inline-block;
+
+    .company_table {
+      width: 100%;
+
+      thead {
+        color: #979797;
+
+        th {
+          padding-left: 5px;
+          padding-bottom: 5px;
+        }
+      }
+
+      tbody {
+        background-color: white;
+        user-select: none;
+        cursor: pointer;
+
+        .active {
+            background-color: #337ab7;
+            color: white;
+        }
+
+        td {
+          word-break: break-all;
+          padding-left: 5px;
+          border-right: 1px solid #ccc;
+
+          &:first-child {
+            max-width: 35%;
+            min-width: 120px;
+          }
+
+          &:nth-child(2) {
+            max-width: 45%;
+          }
+
+          &:nth-child(3) {
+            max-width: 20%;
+            min-width: 50px;
+          }
+        }
+      }
+    }
+  }
+
+}

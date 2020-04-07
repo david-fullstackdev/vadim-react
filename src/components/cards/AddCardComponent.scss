@@ -1,0 +1,61 @@
+@import '../../styles/var.scss';
+
+.new_card_component {
+  max-width: 25%;
+  margin: 0 auto;
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  //Supports Mozilla
+  input[type=number] {
+      -moz-appearance:textfield;
+  }
+
+  .item_head_title {
+    color: $dook-green;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .jumbotron {
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+  }
+
+  .user_data {
+    width: 90%;
+
+    h4 {
+      font-size: 0.85em !important;
+    }
+
+    .control-label {
+      margin-bottom: 0;
+      margin-top: 5px;
+    }
+  }
+
+  .actions {
+    text-align: center;
+    margin-top: 1em;
+
+    button {
+      margin: 0.5em;
+    }
+  }
+
+  input[name="expiry_date"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  input[name="card_security_code"] {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+}

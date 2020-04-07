@@ -1,0 +1,10 @@
+.driverInfoPageComponent {
+  padding-bottom: 100px;
+  .bootstrap-datetimepicker-widget {
+    display: block!important;
+    position: relative!important;
+    top: 0!important;
+    right: 0!important;
+    transform: translate(0, -50%)!important;
+  }
+}

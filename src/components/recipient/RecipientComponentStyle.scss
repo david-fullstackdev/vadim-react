@@ -1,0 +1,141 @@
+@media screen and (max-width: 600px) {
+  .notifications-tr[style] {
+    width: 100%!important;
+    font-size: 30px!important;
+  }
+
+  .notification-visible[style] {
+    font-size: 30px!important;
+    height: 60px!important;
+  }
+
+  .notification-message[style] {
+    margin: 10px!important;
+  }
+}
+@media screen and (max-width: 980px) {
+
+  .RecipientComponent {
+      font-size: 25px;
+    p {
+      font-size: 30px;
+    }
+
+    strong {
+      font-size: 35px;
+    }
+
+    .panel-heading {
+      strong {
+        font-size: 30px;
+      }
+    }
+
+    li {
+      font-size: 25px;
+    }
+    .form-control {
+      height: 2em!important;
+      font-size: 2em;
+    }
+    .col-sm-9 {
+      width: 90%!important;
+      padding-right: 0;
+      padding-left: 0;
+      float: none;
+      margin: 0 auto;
+    }
+    .recipient-order-form {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 2em;
+    }
+    .time_point {
+      margin-top: 2em;
+
+    }
+    .recipient-point-form {
+
+      .panel-title {
+        font-size: 30px;
+      }
+      label {
+        font-size: 30px;
+      }
+    }
+
+    .recipient_submit_btn {
+      margin-top: 60px;
+      margin-bottom: 2em;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      // height: 5em;
+      font-size: 90px;
+    }
+
+    .dotted-line {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .btn-circle {
+      width: 3em;
+      height: 3em;
+      border-radius: 3em;
+      margin-top: 2em!important;
+    }
+  }
+}
+
+.RecipientComponent {
+
+  .control-label {
+    color: #4D4D52;
+  }
+  .btn-circle {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+  .recipient-pack-list {
+    margin-left: 15%;
+    margin-bottom: 2em;
+  }
+
+  .mapContainer {
+    width: 100%;
+    padding-top: 3em;
+    height: 50vh;
+  }
+
+  .recipient-point-form {
+    .panel-body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+
+  .col-sm-9 {
+    .panel-heading {
+      color: white;
+      background-color: #EF7B48;
+    }
+  }
+
+  .en-recipient-btns {
+    float: right;
+    margin-right: 5%;
+  }
+
+  .ar-recipient-btns {
+    float: left;
+    margin-left: 10%;
+  }
+
+  .reject-btn {
+    background-color: #d1d1d1;
+    color: #60285e;
+  }
+}

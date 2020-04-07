@@ -1,0 +1,5 @@
+[0225/204032:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0225/204032:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0225/204041:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0225/204041:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0316/114946.654:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
