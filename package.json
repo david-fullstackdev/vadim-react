@@ -42,7 +42,7 @@
     "express": "^4.15.3",
     "history": "^3.0.0",
     "html-webpack-plugin": "^2.28.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "moment": "^2.14.1",
     "object-assign": "4.1.1",
     "overlapping-marker-spiderfier": "^1.1.4",
