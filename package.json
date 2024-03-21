@@ -141,7 +141,7 @@
     "sinon-chai": "2.8.0",
     "style-loader": "0.13.2",
     "webpack": "^1.13.1",
-    "webpack-dev-middleware": "1.6.1",
+    "webpack-dev-middleware": "5.3.4",
     "webpack-hot-middleware": "^2.12.0",
     "crypto-js": "^3.1.9-1"
   },
